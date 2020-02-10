@@ -1,0 +1,101 @@
+{
+    "authors": ["Gilles Polian"],
+    "language": {
+        "name": "Tseltal-Spanish multidialectal",
+        "isocode": "tzh",
+        "glottocode": "tzel1254"
+    },
+    "date_published": "2020",
+    "number": 10,
+    "properties": {
+        "entry_sep": "\\lxid ",
+        "labels": {
+            "et": "etymology/source lemma or language",
+            "lxdial": "dialectal distribution",
+            "phon": "phonetic form",
+            "predva": "predictable dialectal variants",
+            "va": "non-predictable variants",
+            "sec": "alternative form",
+            "abst": "abstract noun",
+            "atr": "attributive form",
+            "inf": "infinitive",
+            "nopos": "non-possessed form",
+            "pl": "plural form",
+            "plpos": "possessed plural form",
+            "pm": "marked possession form",
+            "agn":  "agentive noun",
+            "dif":  "diffusive form",
+            "sc":   "scientific name",
+            "phr": "associated phrasemes",
+            "sydial": "synonyms (in other dialects)",
+            "de2": "description",
+            "mor": "morphological segmentation",
+            "agn": "agentive noun",
+            "atr": "attributive",
+            "cfdial": "related dialectal form",
+            "cont": "contains",
+            "dif": "diffusive form",
+            "mor": "morphological segmentation"
+        },
+        "custom_fields": ["dialectal distribution", "comparison meanings"],
+        "entry_id": "lxid",
+        "entry_map": {
+            "abst": "Abstract_Noun",
+            "agn": "Agentive_Noun",
+            "atr": "Attributive",
+            "cf": "Entry_IDs",
+            "cfdial": "Related_Dialectal_Form",
+            "cont": "Contains",
+            "dif": "Diffusive_Form",
+            "inf": "Infinitive",
+            "lxdial": "Dialectal_Distribution",
+            "mor": "Morphological_Segmentation",
+            "nopos": "NonPossessed_Form",
+            "phon": "Phonetic_Form",
+            "phr": "Associated_Phrasemes",
+            "pl": "Plural",
+            "plpos": "Possessed_Plural",
+            "pm": "MarkedPossession",
+            "predva": "Predictable_Dialectal_Variants",
+            "sec": "Alternative_Form"
+        },
+        "sense_map": {
+            "sncf": "Related_Entries",
+            "sydial": "Synonyms_Other_Dialect",
+            "sncfdial": "Related_Forms_Other_Dialect",
+            "sndial": "Sense_Dialect",
+            "snscdial": "Scientific_Name_Other_Dialect",
+            "sp": "Subspecies"
+        },
+        "example_map": {
+            "de2": "Comment",
+            "xdial": "Dialect"
+        },
+        "sources": {
+            "cfdial_bibref": "cfdial",
+            "de_bibref": "de",
+            "mor_bibref": "mor",
+            "sc_bibref": "sc",
+            "sy_bibref": "sy"
+        },
+        "link_regex": "\\bTSE\\d+a?\\b",
+        "process_links_in_markers": [
+            "abst",
+            "agn",
+            "cfdial",
+            "de",
+            "de2",
+            "dif",
+            "et",
+            "inf",
+            "mor",
+            "nopos",
+            "phr",
+            "pm",
+            "sncf",
+            "sncfdial",
+            "sp",
+            "sydial"
+        ]
+    }
+}
