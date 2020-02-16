@@ -417,6 +417,17 @@
                     },
                     {
                         "columnReference": [
+                            "Sense_IDs"
+                        ],
+                        "reference": {
+                            "resource": "senses.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
                             "Language_ID"
                         ],
                         "reference": {
