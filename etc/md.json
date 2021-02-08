@@ -1,0 +1,85 @@
+{
+    "authors": ["Gilles Polian"],
+    "language": {
+        "name": "Tseltal-Spanish multidialectal",
+        "isocode": "tzh",
+        "glottocode": "tzel1254"
+    },
+    "date_published": "2020",
+    "number": 10,
+    "doi": "10.5281/zenodo.3660891",
+    "properties": {
+        "entry_sep": "\\lxid ",
+        "entry_id": "lxid",
+        "entry_map": {
+            "abst": "Abstract_Noun",
+            "agn": "Agentive_Noun",
+            "atr": "Attributive",
+            "cf": "Entry_IDs",
+            "cfdial": "Related_Dialectal_Form",
+            "cont": "Contains",
+            "dif": "Diffusive_Form",
+            "inf": "Infinitive",
+            "lxdial": "Dialectal_Distribution",
+            "mor": "Morphological_Segmentation",
+            "nopos": "NonPossessed_Form",
+            "phon": "Phonetic_Form",
+            "phr": "Associated_Phrasemes",
+            "pl": "Plural",
+            "plpos": "Possessed_Plural",
+            "pm": "MarkedPossession",
+            "predva": "Predictable_Dialectal_Variants",
+            "sec": "Alternative_Form"
+        },
+        "sense_map": {
+            "sncf": "Related_Entries",
+            "sydial": "Synonyms_Other_Dialect",
+            "sncfdial": "Related_Forms_Other_Dialect",
+            "sndial": "Sense_Dialect",
+            "snscdial": "Scientific_Name_Other_Dialect",
+            "sp": "Subspecies"
+        },
+        "example_map": {
+            "de2": "Comment",
+            "xdial": "Dialect"
+        },
+        "sources": {
+            "cfdial_bibref": "cfdial",
+            "de_bibref": "de",
+            "mor_bibref": "mor",
+            "sc_bibref": "sc",
+            "sy_bibref": "sy"
+        },
+        "labels": {
+            "et": "Etymology/Source Lemma or Language",
+            "va": "Non-Predictable Variants",
+            "atr": "Attributive Form",
+            "nopos": "Non-Possessed Form",
+            "pl": "Plural Form",
+            "plpos": "Possessed Plural form",
+            "pm": "Marked Possession Form",
+            "sydial": "Synonyms (in Other Dialects)",
+            "de2": "Description"
+        },
+        "custom_fields": ["Dialectal Distribution", "Comparison Meanings"],
+        "link_regex": "\\bTSE\\d+a?\\b",
+        "process_links_in_markers": [
+            "abst",
+            "agn",
+            "cfdial",
+            "de",
+            "de2",
+            "dif",
+            "et",
+            "inf",
+            "mor",
+            "nopos",
+            "phr",
+            "pm",
+            "sncf",
+            "sncfdial",
+            "sp",
+            "sydial"
+        ]
+    }
+}
