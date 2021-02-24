@@ -3,8 +3,7 @@ import pathlib
 import re
 
 from pybtex.database import parse_string
-from pydictionaria.formats import sfm as formats_sfm
-from pydictionaria.formats.sfm_lib import Database as SFM, Entry
+from pydictionaria.sfm_lib import Database as SFM, Entry
 from pydictionaria import sfm2cldf
 
 from cldfbench import CLDFSpec, Dataset as BaseDataset
@@ -84,14 +83,14 @@ class Dataset(BaseDataset):
 
         marker_map = ChainMap(
             properties.get('marker_map') or {},
-            formats_sfm.DEFAULT_MARKER_MAP)
+            sfm2cldf.DEFAULT_MARKER_MAP)
         entry_sep = properties.get('entry_sep') or sfm2cldf.DEFAULT_ENTRY_SEP
         sfm = SFM(
             self.raw_dir / 'db.sfm',
             marker_map=marker_map,
             entry_sep=entry_sep)
 
-        examples = formats_sfm.load_examples(self.raw_dir / 'examples.sfm')
+        examples = sfm2cldf.load_examples(self.raw_dir / 'examples.sfm')
 
         if (self.raw_dir / 'sources.bib').exists():
             sources = parse_string(self.raw_dir.read('sources.bib'), 'bibtex')
