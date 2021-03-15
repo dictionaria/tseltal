@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "git@github.com:dictionaria/tseltal",
-            "dc:created": "v1.0.1-6-g4bdf509"
+            "dc:created": "v1.0.1-8-gf551555"
         },
         {
             "rdf:type": "prov:Entity",

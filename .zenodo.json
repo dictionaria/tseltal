@@ -1,0 +1,29 @@
+{
+    "title": "dictionaria/tseltal: Tseltal-Spanish multidialectal dictionary",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Dictionary",
+        "linguistics"
+    ],
+    "creators": [
+        {
+            "name": "Gilles Polian"
+        }
+    ],
+    "communities": [
+        {
+            "identifier": "cldf-datasets"
+        },
+        {
+            "identifier": "clld"
+        },
+        {
+            "identifier": "dictionaria"
+        }
+    ],
+    "upload_type": "dataset",
+    "license": {
+        "id": "CC-BY-4.0"
+    },
+    "description": "Polian, Gilles. 2020. Tseltal-Spanish multidialectal dictionary. Dictionaria 10. 1-8109 (Available online at https://dictionaria.clld.org/contributions/tseltal)"
+}
