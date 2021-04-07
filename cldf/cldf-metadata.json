@@ -9,7 +9,7 @@
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Dictionary",
     "dc:creator": "Gilles Polian",
     "dc:identifier": "https://dictionaria.clld.org/contributions/tseltal",
-    "dc:license": "CC-BY 4.0",
+    "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:source": "sources.bib",
     "dc:title": "Tseltal-Spanish multidialectal dictionary",
     "dcat:accessURL": "git@github.com:dictionaria/tseltal",
@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "git@github.com:dictionaria/tseltal",
-            "dc:created": "v1.0.1-8-gf551555"
+            "dc:created": "v1.0.1-9-g52b3ddd"
         },
         {
             "rdf:type": "prov:Entity",
