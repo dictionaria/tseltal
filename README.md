@@ -70,7 +70,7 @@ Tseltal, like Mayan languages in general, is among the best described Amerindian
 There are three broad dialect areas: North, Center and South, plus a dialectally heterogeneous oriental region, a place of recent migrations, which was not studied. Dialectal variation is only moderate, as it allows to some extent a fluid communication between speakers from different areas. This dictionary is multidialectal, as it covers eighteen places from all three areas, as represented in Map 1, along with the abbreviations used in this study. Note that references are also made to entire areas, through the corresponding abbreviation.
 
 <figure class="img">
-<img src="https://cdstar.shh.mpg.de/bitstreams/EAEA0-A6BB-0DF7-AD56-0/MAPA_TSELTAL.jpg" title="tseltal"/>
+<img src="https://cdstar.eva.mpg.de/bitstreams/EAEA0-A6BB-0DF7-AD56-0/MAPA_TSELTAL.jpg" title="tseltal"/>
 <figcaption>Map 1 [Based on a map designed by Vittorio Dell'Aquila]</figcaption>
 </figure>
 
