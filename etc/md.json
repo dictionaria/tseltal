@@ -1,12 +1,13 @@
 {
     "authors": ["Gilles Polian"],
     "language": {
-        "name": "Tseltal-Spanish multidialectal",
+        "name": "Tseltal",
         "isocode": "tzh",
         "glottocode": "tzel1254"
     },
     "doi": "10.5281/zenodo.3660891",
     "properties": {
+        "title": "Tseltal-Spanish multidialectal dictionary",
         "entry_sep": "\\lxid ",
         "entry_id": "lxid",
         "entry_map": {
